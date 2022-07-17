@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.maincontainer {
+  max-width: 40%;
+  margin: 10vh auto 0 auto;
+}
+
+#output {
+  font-size: 25px;
+  height: 10vh;
+  text-align: right;
+  line-height: 70px;
+  padding: 16px 8px;
+  border: 1px solid steelblue;
+  background-color: white;
+}
+
+.btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn {
+  border: 1px solid steelblue;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#equal {
+  background-color: rgb(6, 10, 87);
+  color: white;
+}
+
+.btn:hover {
+  background-color: #386ed4;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
