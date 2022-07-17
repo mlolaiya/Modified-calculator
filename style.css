@@ -11,6 +11,10 @@ body {
 .maincontainer {
   max-width: 40%;
   margin: 10vh auto 0 auto;
+  border: 2px solid grey;
+  border-radius: 20px;
+  box-shadow: 5px 5px grey;
+  background-color: #fff;
 }
 
 #output {
@@ -19,8 +23,9 @@ body {
   text-align: right;
   line-height: 70px;
   padding: 16px 8px;
-  border: 1px solid steelblue;
+  border: 2px solid grey;
   background-color: white;
+  border-radius: 19px 19px 0px 0px;
 }
 
 .btns {
@@ -29,20 +34,25 @@ body {
 }
 
 .btn {
-  border: 1px solid steelblue;
-  line-height: 100px;
+  border: 1px solid #222;
+  line-height: 50px;
+  width: 50px;
   text-align: center;
   font-size: 25px;
   cursor: pointer;
+  border-radius: 50%;
+  margin: 10px auto;
+  background-color: #fff;
+  box-shadow: 5px 5px grey;
 }
 
 #equal {
-  background-color: rgb(6, 10, 87);
+  background-color: grey;
   color: white;
 }
 
 .btn:hover {
-  background-color: #386ed4;
+  background-color: rgb(203, 198, 198);
   color: white;
   transition: 0.5s ease-in-out;
 }
